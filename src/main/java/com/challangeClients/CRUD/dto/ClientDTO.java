@@ -1,16 +1,20 @@
 package com.challangeClients.CRUD.dto;
 
 import com.challangeClients.CRUD.entities.Client;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.PastOrPresent;
 
 import java.time.LocalDate;
 
 public class ClientDTO {
 
     private Long id;
+    @PastOrPresent(message = "Campo requerido")
     private LocalDate birthDate;
     private Integer children;
     private String cpf;
     private Double income;
+    @NotBlank(message = "Campo requerido")
     private String name;
 
     public ClientDTO(Long id, LocalDate birthDate, Integer children, String cpf, Double income, String name) {
