@@ -13,12 +13,17 @@ acessar um recurso de clientes, contendo as cinco operações básicas aprendida
 
 ## 
 
+### Premissas
+
+- O sistema possibilita a aplicação de vários conhecimentos importantes das disciplinas de fundamentos.
+- O sistema contem as principais funcionalidades que se espera de um profissional iniciante deve saber construir, tais como telas de cadastro e fluxos de caso de uso.
+
 ### Respeitando o seguinte Diagrama de Clientes:
 
 ![image](https://user-images.githubusercontent.com/88008441/219996121-cc90c418-00f3-49c4-be14-a551e9370de0.png)
 
 # Tecnologias utilizadas
-## Back end
+
 - Java
 - Spring Boot
 - JPA / Hibernate
@@ -27,7 +32,6 @@ acessar um recurso de clientes, contendo as cinco operações básicas aprendida
 
 # Como executar o projeto
 
-## Back end
 Pré-requisitos: Java 17
 
 ```bash
