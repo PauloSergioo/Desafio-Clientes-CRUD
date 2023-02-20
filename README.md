@@ -1,9 +1,9 @@
-# CRUD de clientes
+# DESAFIO: CRUD de clientes
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/devsuperior/sds1-wmazoni/blob/master/LICENSE) 
 
-# Sobre o projeto
+# Sobre o desafio
 
-Projeto de estudo utilizando Spring Boot contendo um CRUD completo de web services REST para
+Desafio de estudos utilizando Spring Boot contendo um CRUD completo de web services REST para
 acessar um recurso de clientes, contendo as cinco operações básicas aprendidas no capítulo:
 
 - Busca paginada de recursos
